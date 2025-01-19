@@ -5,24 +5,24 @@ A **PyQt6-based desktop application** that predicts stock prices using an **LSTM
 ---
 
 ## ** Features**
-✅ **Stock Price Prediction** using a trained LSTM model
-✅ **Multi-Stock Comparison** (enter multiple stock symbols)
-✅ **Live Stock Price Updates** (fetches new prices every 10 seconds)
-✅ **Static vs. Live Mode Toggle**
-✅ **Matplotlib Graph Integration** (visualize stock trends & predictions)
-✅ **Modern PyQt6 UI**
+ **Stock Price Prediction** using a trained LSTM model
+ **Multi-Stock Comparison** (enter multiple stock symbols)
+ **Live Stock Price Updates** (fetches new prices every 10 seconds)
+ **Static vs. Live Mode Toggle**
+ **Matplotlib Graph Integration** (visualize stock trends & predictions)
+ **Modern PyQt6 UI**
 
 ---
 
-## **📌 Installation**
+## ** Installation**
 
-### **1️⃣ Clone the Repository**
+### **1 Clone the Repository**
 ```bash
 git clone https://github.com/GauthamSathishD/StockPredictor.git
 cd StockPredictor
 ```
 
-### **2️⃣ Install Dependencies**
+### **2 Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
@@ -31,20 +31,20 @@ If you don’t have `requirements.txt`, install manually:
 pip install yfinance PyQt6 matplotlib joblib numpy pandas tensorflow requests
 ```
 
-### **3️⃣ Train the Model**
+### **3 Train the Model**
 Run the following command to fetch stock data and train the LSTM model:
 ```bash
 python predictor.py
 ```
 
-### **4️⃣ Run the Application**
+### **4 Run the Application**
 ```bash
 python stock_predictor.py
 ```
 
 ---
 
-## **🛠️ Project Structure**
+## **Project Structure**
 ```
 StockPredictor/
 │── stock_predictor.py   # Main PyQt6 GUI Application
@@ -56,7 +56,7 @@ StockPredictor/
 
 ---
 
-## **📊 How It Works**
+## **How It Works**
 1. **User enters stock symbols** (e.g., `AAPL, TSLA, GOOGL`).
 2. **Stock data is fetched** using Yahoo Finance API.
 3. **Pre-trained LSTM model predicts stock prices.**
@@ -65,19 +65,19 @@ StockPredictor/
 
 ---
 
-## **📈 Example Usage**
-### **🔹 Static Mode (Historical Data)**
+## **Example Usage**
+### **Static Mode (Historical Data)**
 - Enter a stock ticker (`AAPL`) and click `Predict`.
 - The graph displays historical data & predicted price.
 
-### **🔹 Live Mode (Real-Time Updates)**
+### **Live Mode (Real-Time Updates)**
 - Select **Live Updates** from the dropdown.
 - The app fetches real-time stock prices every **10 seconds**.
 
 ---
 
 
-## **👨‍💻 Author**
+## **Author**
 Developed by **Gautham Sathish**  
 
 
